@@ -1,22 +1,48 @@
-# Projeto-1-Web-1-
 Projeto Web
-Como executar
-Instale as dependências:
+Este projeto pode ser executado e visualizado utilizando o Visual Studio Code (VS Code).
+
+1. Abra o projeto no VS Code
+Abra o VS Code e selecione:
+
+Arquivo → Abrir Pasta
+
+Depois, escolha a pasta onde está o projeto.
+
+2. Abra o terminal
+No VS Code, abra o terminal pelo menu:
+
+Terminal → Novo Terminal
+
+Ou utilize o atalho:
+
+Ctrl + `
+3. Instale as dependências
+No terminal, execute:
+
 npm install
-Inicie o projeto:
+Aguarde a instalação terminar.
+
+4. Execute o projeto
+Depois, execute:
+
 npm run dev
-Abra no navegador o endereço exibido no terminal, geralmente:
+O terminal mostrará um endereço semelhante a:
+
 http://localhost:5173
-Build de produção
-Para gerar a versão de produção:
+5. Visualize no navegador
+Segure Ctrl e clique no endereço exibido no terminal.
 
-npm run build
-Para visualizar:
+Caso não abra automaticamente, copie o endereço e cole no navegador.
 
-npm run preview
-Tecnologias
-HTML
-CSS
-JavaScript/TypeScript
-[Framework utilizado]
+Exemplo:
 
+http://localhost:5173
+
+6. Encerrar o projeto
+Quando terminar de utilizar o projeto, volte ao terminal do VS Code e pressione:
+
+Ctrl + C
+Comandos principais
+npm install   # Instala as dependências
+npm run dev   # Inicia o projeto
+Importante: mantenha o terminal do VS Code aberto enquanto estiver utilizando o projeto. Se o servidor for encerrado, a aplicação deixará de funcionar no navegador.
